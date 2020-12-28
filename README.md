@@ -107,6 +107,7 @@ to complete the implementation of each service, as described below:
     - Prints all transaction information to the screen, using a different message for suspicious and valid transactions.
     - You'll need to complete the implementation of this service.
 
+## Kafka Cluster Setup
 ![Kafka Cluster Setup](https://github.com/johnshields/Kafka-Distributed-Banking-System/blob/master/screen-grabs/kafka_cluster_setup.png)
 
 #### END OF README
