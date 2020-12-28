@@ -6,15 +6,7 @@
 
 ### Distributed Systems (COMP08011) 2020-21
 
-## Academic Integrity
-
 <!-- ## Kafka Assignment: Distributed Banking System -->
-
-
-**This is an individual project. By accepting this assignment you agree to be bound
-by [GMIT's Student Code of Conduct](https://www.gmit.ie/sites/default/files/public/general/docs/code-student-conduct-2019-2020.pdf)
-, which specifically states that any work submitted under your name must be your own work and not that of any other
-person.**
 
 ## Introduction
 
@@ -115,44 +107,6 @@ to complete the implementation of each service, as described below:
     - Prints all transaction information to the screen, using a different message for suspicious and valid transactions.
     - You'll need to complete the implementation of this service.
 
-## Additional Credit
-
-For additional credit (15 %), set up an additional topic for high value transactions (transaction value > 1000).
-High-value transactions should be sent to this topic. Create an additional service to consume these high-value
-transactions.
-
-## Submission
-
-**Please ensure that you complete your work in the repository created for you by GitHub Classroom.** Submission is via
-your GitHub repository. On the submission date, the most recent commit in the GitHub repository will be treated as your
-submission. It is not necessary to submit code on Moodle or via email.
-
-Your repository should contain:
-
-- Your code.
-- A screenshot (named `screenshot.png` of the output of the `kafka-topics` script's `--describe` command, showing the
-  topic and partition information for your two topics (see [Part 1](#part-1-kafka-cluster-setup) above). Windows 10
-  users can use the shortcut `Windows Key + Shift + S`.
-- A brief screencast demonstrating the application running on your machine. Your screencast should show 4 terminal
-  windows, with each of the micro-services running in each. When the `bank-api-service` is run, the correct messages
-  should be received by the consumer services and be printed to the screen.
-
 ![Kafka Cluster Setup](https://github.com/johnshields/Kafka-Distributed-Banking-System/blob/master/screen-grabs/kafka_cluster_setup.png)
 
-## Grading
-
-**There is no autograding for this assignment**. GitHub Actions simply builds your submission to verify that it
-compiles. You should avoid committing code that doesn't compile. Your assignment will be graded by:
-
-- running your code to verify it behaves as expected (i.e. the correct transactions are sent to the correct services)
-- watching your screencast demo to verify that you can run the code yourself
-- verifying your Kafka topics setup by checking your submitted screenshot
-- reading your code and examining your repository to assess :
-    - the quality and coding style of your implementation of the functionality.
-    - your adherence to coding best practices regarding formatting, variable naming etc.
-    - your adherence to software development best practices in using git and GitHub.
-
-Marks will be awarded as follows:
-| Grade Item | Marks | | --- | --- | |bank-api-service | 20 | | account-manager | 10 | | reporting-service | 10 | |
-user-notification | 10 | | Kafka Topics Screenshot | 5 | | Screen Cast Demo | 15 | | Quality | 15 | | Additional Credit
-| 15 | | **TOTAL** | **100** |
+#### END OF README
