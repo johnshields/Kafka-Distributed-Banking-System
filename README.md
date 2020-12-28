@@ -137,7 +137,7 @@ Your repository should contain:
   windows, with each of the micro-services running in each. When the `bank-api-service` is run, the correct messages
   should be received by the consumer services and be printed to the screen.
 
-![When you add the screenshot.png file to your repo it will show up here](screenshot.png)
+![Kafka Cluster Setup](https://github.com/johnshields/Kafka-Distributed-Banking-System/blob/master/screen-grabs/kafka_cluster_setup.png)
 
 ## Grading
 
