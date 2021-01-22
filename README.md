@@ -10,7 +10,7 @@
 
 ## Introduction
 
-A distributed banking system made up of several micro-services communicating via Kafka.
+A Distributed Banking System made up of several micro-services communicating via Kafka.
 The system processes customer card transactions and identifies suspicious transactions so that customers can be
 notified. Transactions are identified as being suspicious if the location of the transaction is different from the
 customer's location.
