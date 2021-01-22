@@ -10,7 +10,7 @@
 
 ## Introduction
 
-In this assignment you'll build a distributed banking system made up of several micro-services communicating via Kafka.
+A distributed banking system made up of several micro-services communicating via Kafka.
 The system processes customer card transactions and identifies suspicious transactions so that customers can be
 notified. Transactions are identified as being suspicious if the location of the transaction is different from the
 customer's location.
@@ -50,7 +50,7 @@ All the communication between these micro-services is achieved using Kafka Topic
 
 ## Part 1 Kafka Cluster Setup
 
-Your distributed banking system should communicate using a fault-tolerant and scalable Kafka cluster set up as follows:
+The distributed banking system communicates using a fault-tolerant and scalable Kafka cluster set up as follows:
 
 - 3 Kafka brokers listening on ports 9092, 9093 and 9094
 - A topic called `valid-transactions` with 3 partitions and a replication factor of 3.
@@ -74,7 +74,7 @@ Topic: suspicious-transactions  PartitionCount: 2       ReplicationFactor: 3    
 
 ## Part 2 - Implementation of the Distributed Banking System Micro-Services
 
-You are provided with starter code for the micro-services with some parts of the functionality implemented. Your task is
+Starter code was given for the micro-services with some parts of the functionality implemented. The task was
 to complete the implementation of each service, as described below:
 
 - `bank-api-service`
