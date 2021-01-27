@@ -6,7 +6,7 @@ alt="GMIT Logo" width="500" height="200"/>
 </p></a>
 
 ## Project Details
-| **Project Title** | Distributed Banking System |
+| **Project Title** | Kafka Project: Distributed Banking System |
 | :------------- |:-------------|
 | **Course**              | BSc (Hons) in Software Development |
 | **Module**              | Distributed Systems |
@@ -15,17 +15,10 @@ alt="GMIT Logo" width="500" height="200"/>
 | **Module Lecturer**     | John French |
 
 ***
-# Kafka Project: Distributed Banking System
-
-### GMIT BSc (Hons) Computing in Software Development
-
-### Distributed Systems (COMP08011) 2020-21
-
-***
 
 <!-- ## Kafka Project: Distributed Banking System -->
 
-## Distributed Banking System
+# Distributed Banking System
 
 A Distributed Banking System made up of several micro-services communicating via Kafka.
 The system processes customer card transactions and identifies suspicious transactions so that customers can be
