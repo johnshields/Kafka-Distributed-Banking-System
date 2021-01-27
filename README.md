@@ -5,6 +5,17 @@
 alt="GMIT Logo" width="500" height="200"/>
 </p></a>
 
+## Project Details
+| **Project Title** | Distributed Banking System |
+| :------------- |:-------------|
+| **Course**              | BSc (Hons) in Software Development |
+| **Module**              | Distributed Systems |
+| **Institute**           | [Galway-Mayo Institute of Technology](https://www.gmit.ie/) |
+| **Student**             | [John Shields](https://github.com/johnshields) |
+| **Module Lecturer**     | John French |
+
+***
+
 ***
 # Kafka Project: Distributed Banking System
 
