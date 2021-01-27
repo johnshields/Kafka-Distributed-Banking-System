@@ -15,8 +15,6 @@ alt="GMIT Logo" width="500" height="200"/>
 | **Module Lecturer**     | John French |
 
 ***
-
-***
 # Kafka Project: Distributed Banking System
 
 ### GMIT BSc (Hons) Computing in Software Development
